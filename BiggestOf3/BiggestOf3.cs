@@ -57,15 +57,15 @@ namespace BiggestOf3
             LABEL3 = Convert.ToInt16(label3.Text);
 
             //Test which number is bigger by comparing to each other. Change the color of the background to blue for biggest or multiple if matching numbers.
-            if (LABEL1.CompareTo(LABEL2) >= 0 & LABEL1.CompareTo(LABEL3) >= 0)
+            if (LABEL1.CompareTo(LABEL2) >= 0 && LABEL1.CompareTo(LABEL3) >= 0)
             {
                 label1.BackColor = Color.Blue;
             }
-            if (LABEL2.CompareTo(LABEL1) >= 0 & LABEL2.CompareTo(LABEL3) >= 0)
+            if (LABEL2.CompareTo(LABEL1) >= 0 && LABEL2.CompareTo(LABEL3) >= 0)
             {
                 label2.BackColor = Color.Blue;
             }
-            if (LABEL3.CompareTo(LABEL1) >= 0 & LABEL3.CompareTo(LABEL2) >= 0)
+            if (LABEL3.CompareTo(LABEL1) >= 0 && LABEL3.CompareTo(LABEL2) >= 0)
             {
                 label3.BackColor = Color.Blue;
             }
